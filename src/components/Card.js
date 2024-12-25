@@ -37,7 +37,7 @@ const Card = ({ title, description, imageSrc, urlProject }) => {
           </Text>
 
           <Heading size="sm" color="darkblue">
-            <a href={urlProject}>
+            <a href={urlProject} target="_blank">
               See Project <FontAwesomeIcon icon={faArrowRight} size="1x" />
             </a>
           </Heading>

@@ -15,7 +15,7 @@ const projects = [
     title: "React Online-shop",
     description:
       "A fully responsive online plant shop built with React, designed to offer an intuitive and seamless shopping experience for plant enthusiasts. The platform features a dynamic product catalog with detailed plant descriptions, pricing, and categories. It includes user-friendly features like a search bar, filtering options, and a shopping cart.",
-    getImageSrc: () => require("../images/Online-shop.jpg"),
+    getImageSrc: () => require("../images/Online-shop-prog.jpg"),
   },
   {
     title: "Photo Gallery",
