@@ -65,7 +65,7 @@ const LandingSection = () => {
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box p={6} rounded="md" w="50vw">
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl

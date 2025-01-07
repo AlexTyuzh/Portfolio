@@ -14,14 +14,15 @@ const projects = [
   {
     title: "React Online-shop",
     description:
-      "A fully responsive online plant shop built with React, designed to offer an intuitive and seamless shopping experience for plant enthusiasts. The platform features a dynamic product catalog with detailed plant descriptions, pricing, and categories. It includes user-friendly features like a search bar, filtering options, and a shopping cart.",
+      "Online plant shop built with React, designed to offer an intuitive and seamless shopping experience for plant enthusiasts. The platform features a dynamic product catalog with detailed plant descriptions, pricing, and categories. It includes user-friendly features like a search bar, filtering options, and a shopping cart.",
     getImageSrc: () => require("../images/Online-shop-prog.jpg"),
   },
   {
-    title: "Photo Gallery",
+    title: "Calculator",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "A calculator that was built with React that offers basic arithmetic operations in a clean and intuitive user interface.",
+    getImageSrc: () => require("../images/Calculator.jpg"),
+    urlProject: "https://alex-tiuzhin-calculator.netlify.app/",
   },
   {
     title: "Event planner",

@@ -39,13 +39,11 @@ const Header = () => {
     }
   };
 
-  // Handle header show/hide animation depending on the scroll direction
   const headerRef = useRef(null);
 
   useEffect(() => {
     let prevScrollPos = window.scrollY;
 
-    // Handle scroll events
     const handleScroll = () => {
       const currScrollPos = window.scrollY;
       const currHeaderElement = headerRef.current;
@@ -95,7 +93,6 @@ const Header = () => {
         >
           <nav>
             <HStack spacing={[4, 4, 6]}>
-              {/* Add social media links based on the `socials` data */}
               {socials.map(({ icon, url }) => (
                 <a
                   key={url}
@@ -110,8 +107,7 @@ const Header = () => {
             </HStack>
           </nav>
           <nav>
-            <HStack spacing={[4, 6, 8]}>
-              {/* Add links to Projects and Contact me section */}
+            <HStack spacing={[4, 6, 8]} fontSize={["md", "xl", "2xl"]}>
               <a href="/#contactme-section" onClick={handleClick}>
                 Contact Me
               </a>
