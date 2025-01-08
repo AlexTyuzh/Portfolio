@@ -14,7 +14,7 @@ const projects = [
   {
     title: "React Online-shop",
     description:
-      "Online plant shop built with React, designed to offer an intuitive and seamless shopping experience for plant enthusiasts. The platform features a dynamic product catalog with detailed plant descriptions, pricing, and categories. It includes user-friendly features like a search bar, filtering options, and a shopping cart.",
+      "Online plant shop built with React, designed to offer an intuitive shopping. The platform features a dynamic product catalog with detailed plant descriptions, pricing, and categories. It includes user-friendly features like a search bar, filtering options, and a shopping cart.",
     getImageSrc: () => require("../images/Online-shop-prog.jpg"),
   },
   {
@@ -25,10 +25,11 @@ const projects = [
     urlProject: "https://alex-tiuzhin-calculator.netlify.app/",
   },
   {
-    title: "Event planner",
+    title: "Stop Watch",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "A simple and fast online stopwatch, counts the time to the millisecond",
+    getImageSrc: () => require("../images/StopWatch.jpg"),
+    urlProject: "https://alex-tiuzhin-stopwatch.netlify.app/",
   },
 ];
 
