@@ -16,11 +16,11 @@ const LandingSection = () => (
     isDarkBackground
     backgroundColor="#274c77"
   >
-    <VStack spacing={[5, 8, 10]}>
+    <VStack spacing={[4, 8, 10]}>
       <VStack>
         <Image
           src={AlexTiuzhin}
-          boxSize={["100px", "150px", "200px"]}
+          boxSize={["120px", "150px", "200px"]}
           borderRadius="full"
           fit="cover"
           alt="Alex Tiuzhin"
